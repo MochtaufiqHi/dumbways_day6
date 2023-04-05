@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <title>Bacth 46</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="crossorigin="anonymous"referrerpolicy="no-referrer"/>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="nav-left">
+        <ul>
+          <img src="assets/img/logo.png" alt="logo_dumbways">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="my_project.html">Blog</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-right">
+        <a href="contact_form.html">Contact Me</a>
+      </div>
+      <div class="ham-icon">
+        <button onclick="openHamburger()">
+          <i class="fa-solid fa-bars fa-xl" style="color: white;"></i>
+        </button>
+        <a href=""></a>
+      </div>
+    </nav>
+    <!-- Hamburger Menu -->
+    <div class="ham-menu"> 
+      <ul id="ham-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="my_project.html">My Project</a></li>
+        <li><a href="contact_form.html">Contact Me</a></li>
+      </ul>
+    </div>
+
+    <!-- Form submission -->
+    <form action="#">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name">
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="text" id="email">
+      </div>
+      <div>
+        <label for="phone">Phone Number</label>
+        <input type="text" id="phone">
+      </div>
+      <div>
+        <label for="subject">Subject</label>
+        <select id="subject">
+          <option>Let's Talks</option>
+          <option>Let's Collaboration</option>
+          <option>I am Hiring</option>
+        </select>
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <textarea name="" id="message" cols="30" rows="10"></textarea>
+      </div>
+      <div class="btn-sub">
+        <button type="button" onclick="getData()">Submit</button>
+      </div>
+    </form>
+  </body>
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/hamburgerMenu.js"></script>
+</html>

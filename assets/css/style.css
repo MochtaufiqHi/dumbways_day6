@@ -1,0 +1,457 @@
+/* import font google poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+/* ----- */
+body {
+  margin: 0;
+  font-family: poppins;
+  box-sizing: border-box;
+  background-color: rgb(214, 214, 214);
+}
+/* Navbar Styling */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  padding: 0 40px;
+}
+
+nav img {
+  margin-right: 50px;
+}
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-top: 16px;
+}
+.nav-left ul li {
+  margin-right: 30px;
+  font-size: 20px;
+}
+.nav-left ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.nav-left a:hover {
+  color: orangered;
+}
+.nav-right a {
+  color: black;
+  background-color: white;
+  text-decoration: none; 
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+.nav-right a:hover {
+  background-color: orangered;
+  color: white;
+}
+
+/* Ham Menu */
+.ham-menu ul{
+  display: none;
+  margin: 0px;
+  display: none;
+}
+
+.ham-menu ul li {
+  list-style-type: none;
+  text-align: center;
+  border: none;
+  padding: 16px 20px;
+}
+
+.ham-menu ul li a{
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+.ham-menu ul li a:hover{
+  color: orangered;
+}
+
+.ham-menu ul li a:hover{
+  color: orangered;
+}
+
+.ham-icon {
+  display: none;
+  margin: 0px -20px 18px;
+}
+/* Content Home Style */
+
+.content {
+  display: flex;
+  margin: 60px auto;
+  border: none;
+  width: calc(100% - 80px);
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgb(168, 184, 219);
+  background-color: white;
+}
+
+.content-left {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  padding: 40px;
+  text-align: justify;
+}
+
+.download-cv, .button-media {
+  display: flex;
+  align-items:center;
+}
+
+.download-cv button {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.download-cv p {
+  margin-right: 10px;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0px;
+  margin-top: 40px;
+}
+
+.button-media li {
+  list-style: none;
+  height: 40px;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.button-media li a{
+  text-decoration: none;
+  margin-right: 0px;
+  background-color: black;
+  width: 60px;
+  height: 60px;
+  padding:  12px 18px;
+  border-radius: 100%;
+  font-size: 20px;
+}
+
+.button-media a:hover {
+  background-color: orangered;
+}
+
+/* ------------------------- */
+
+.content-right {
+  display: block;
+}
+
+.content-right {
+  margin: 40px;
+  text-align: center;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 2px 2px 8px rgb(168, 184, 219);
+  background-color: white;
+  color: black;
+}
+
+.card {
+  height: 320px;
+  object-fit: scale-down;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.name-profile {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: -10px;
+}
+
+/* ---------------------------------------- */
+/* Form contact styling */
+
+form {
+  width: 500px;
+  margin: 40px auto;
+}
+
+form div {
+  margin-top: 10px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 18px;
+  color: var(--base1);
+}
+
+input, 
+select, 
+textarea {
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+input, textarea {
+  box-shadow: 2px 2px 2px rgb(240, 207, 136);
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+form div.btn-submit {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+button {
+  background-color: black;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* ---------------------------- */
+/* My project styling */
+
+div.date-input {
+  display: flex;
+}
+
+div.right-date-start {
+  margin-left: 10%;
+}
+
+.grid-container-icon {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+  justify-items: start;
+  align-items: center;
+}
+
+.grid-item-icon {
+  padding: 4px;
+}
+
+.grid-item-icon input {
+  width: 13px;
+  margin-right: 8px;
+}
+
+form div.btn-sub{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 104%;
+}
+
+div.btn-sub button {
+  background-color: black;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+div.btn-sub button:hover {
+  background-color: orangered;
+  color: black;
+}
+
+/* ----------------------------- */
+/* Project item styling */
+
+.cover-grid {
+  background-color: white;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 40px auto;
+  padding: 10px;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid #B0DAFF;
+  border-radius: 10px;
+  box-shadow: -2px 4px 8px #9b9b9b;
+  text-align: left;
+  width: 30%;
+  margin: 10px auto;
+}
+
+img.img-project {
+  border-radius: 10px;
+  margin: 12px;
+  box-shadow: 2px 4px 8px #bbbbbb;
+}
+
+div.info-project {
+  margin: 12px;
+  /* margin-top: -8px; */
+}
+
+.framework-logo {
+  width: 12px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-left: 7px;
+  margin-bottom: 10px;
+}
+
+.framework-logo img {
+  margin: 8px;
+}
+
+div.btn-project {
+  display: flex;
+  justify-content: space-around;
+  margin: 12px;
+}
+
+.btn-project button {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 12px 16px;
+  width: 49%;
+}
+ /* --------------------------- */
+ /* Blog detail styling */
+
+div.detail-blog {
+  width: 75%;
+  margin: 40px auto;
+  display: flex;
+}
+
+div.detail-blog-left {
+  width: 60%;
+}
+
+div.detail-blog-right {
+  margin: 0px 80px ;
+
+}
+
+.duration {
+  margin-top: 4px;
+}
+
+.detail-blog-description {
+  width: 75%;
+  margin: 20px auto;
+  text-align: justify;
+}
+
+.detail-blog-tech {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.detail-blog-tech div {
+  margin: -10px;
+}
+
+h2.tech-label {
+  margin-top: 60px;
+  margin-bottom: 18px;
+  margin-left: -12px;
+}
+
+
+@media only screen and (max-width: 650px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .content-left {
+    display: inherit;
+    width: inherit;
+  }
+  
+  .sosial-media {
+    margin: 10px auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .button-media li a {
+    margin: 0px;
+  }
+
+  .button-media li {
+    margin: 0px 10px;
+  }
+
+  .content-right {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+  }
+
+  .card {
+    object-fit: fill;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .grid-container {
+    grid-template-columns: auto auto;
+  }
+
+  .grid-item {
+    width: 48%;
+  }
+
+  .nav-right, .nav-left ul li {
+    display: none;
+  }
+
+  .ham-icon {
+    display: block;
+  }
+
+  form{
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 651px) {
+  .ham-menu {
+    display: none;
+  }
+}
