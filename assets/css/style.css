@@ -390,7 +390,25 @@ h2.tech-label {
   margin-left: -12px;
 }
 
+/* Testimoni styling */
+.testimoni-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 80px auto;
+  justify-items: center;
+}
 
+.testimoni-container img {
+  height: 240px;
+}
+
+.author {
+  text-align: end;
+  font-style: italic;
+  font-weight: bolder;
+  margin-bottom: 80px;
+}
+/* --------------- */
 @media only screen and (max-width: 650px) {
   .content {
     flex-direction: column;
@@ -425,6 +443,30 @@ h2.tech-label {
 
   .card {
     object-fit: fill;
+  }
+}
+
+@media only screen and (max-width: 1110px) {
+  .testimoni-container {
+    height: 240px;
+    grid-template-columns: auto auto;
+  }
+}
+
+@media only screen and (max-width: 850pxpx) {
+  .testimoni-container {
+    height: 180px;
+    grid-template-columns: auto auto;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .testimoni-container {
+    height: 80px;
+    grid-template-columns: auto auto;
+  }
+  .testimoni-container img {
+    height: 140px;
   }
 }
 
