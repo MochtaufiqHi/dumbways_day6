@@ -51,12 +51,12 @@ class TestAuthor extends Test {
   }
 }
 
-let author1 = new TestAuthor("assets/img/jeffrey-keenan-pUhxoSapPFA-unsplash.jpg", "makan bang", "taufiq")
-let author2 = new TestAuthor("assets/img/jeffrey-keenan-pUhxoSapPFA-unsplash.jpg", "makan bang", "taufiq")
-let author3 = new TestAuthor("assets/img/jeffrey-keenan-pUhxoSapPFA-unsplash.jpg", "makan bang", "taufiq")
-let author4 = new TestAuthor("assets/img/jeffrey-keenan-pUhxoSapPFA-unsplash.jpg", "makan bang", "taufiq")
-let author5 = new TestAuthor("assets/img/jeffrey-keenan-pUhxoSapPFA-unsplash.jpg", "makan bang", "taufiq")
-let author6 = new TestAuthor("assets/img/jeffrey-keenan-pUhxoSapPFA-unsplash.jpg", "makan bang", "taufiq")
+let author1 = new TestAuthor("assets/img/jeffrey-keenan-pUhxoSapPFA-unsplash.jpg", "this is a testimoni", "taufiq")
+let author2 = new TestAuthor("assets/img/jeffrey-keenan-pUhxoSapPFA-unsplash.jpg", "this is a testimoni", "taufiq")
+let author3 = new TestAuthor("assets/img/jeffrey-keenan-pUhxoSapPFA-unsplash.jpg", "this is a testimoni", "taufiq")
+let author4 = new TestAuthor("assets/img/jeffrey-keenan-pUhxoSapPFA-unsplash.jpg", "this is a testimoni", "taufiq")
+let author5 = new TestAuthor("assets/img/jeffrey-keenan-pUhxoSapPFA-unsplash.jpg", "this is a testimoni", "taufiq")
+let author6 = new TestAuthor("assets/img/jeffrey-keenan-pUhxoSapPFA-unsplash.jpg", "this is a testimoni", "taufiq")
 
 const items = [author1, author2, author3, author4, author5, author6]
 let itemsForHtml = ""
