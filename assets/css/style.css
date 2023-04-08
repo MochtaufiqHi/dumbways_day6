@@ -408,6 +408,14 @@ h2.tech-label {
   font-weight: bolder;
   margin-bottom: 80px;
 }
+
+.rating-items {
+  text-align: center;
+}
+
+.rating-items button {
+  cursor: pointer;
+}
 /* --------------- */
 @media only screen and (max-width: 650px) {
   .content {
